@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>the.weather</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+</head>
+<body>
+      <div class="main">
+         <div class="left">
+            <div class="content">
+                <h1>the.weather</h1>
+            </div>
+            <div class="tempbar">
+               <p class="temp"></p>
+               <div class="pnt">
+               <p class="place"></p>
+               <p class="time"></p>
+               </div>
+               <div class="ind">
+                <img class="icon" alt="icon"></img>
+                <p class="condition"></p>
+               </div>
+            </div>   
+         </div>
+         <div class="right">
+            <div class="search">
+             <input type="text" id="searchbar" placeholder="Enter another location" />
+             <button class="searchicon"><img src="../img/search.png" alt="find" class="find" /></button>
+            </div>
+            <div class="middle">
+               <ul class="recents">
+
+               </ul>
+            </div>
+            <div class="details">
+               <hr /><br />
+               <h1>Weather Details</h1>
+               <div class="two">
+               <div class="head">
+                <p class="cloudy1"><b>Cloudy :</b></p>
+                <p class="humidity1"><b>Humidity :</b></p>
+                <p class="wind1"><b>Wind :</b></p>
+               </div>
+               <div class="ans">
+                <p class="cloudy"></p>
+                <p class="humidity"></p>
+                <p class="wind"></p>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+      <script src="../js/app.js" ></script>
+</body>
+</html>

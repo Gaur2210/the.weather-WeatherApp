@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    outline:none;
+}
+body {
+    background-image: url('../img/bg.jpg');
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    color:white;
+}
+.left h1{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    letter-spacing: -2px;
+    margin: 2rem 2rem;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    width: 25%;
+    backdrop-filter: saturate(100%) blur(10px);
+    padding: 0rem 3rem;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+}
+#searchbar{
+    background: none;
+    border: none;
+    width: 90%;
+    font-size: 26px;
+    border-bottom: 2px solid rgb(192, 182, 182);
+    padding: 0.5rem 0.5rem;
+    color: white;
+    margin-top: 3.5rem;
+}
+.searchicon{
+    position: absolute;
+    background: none;
+    top: 0;
+    right: 0;
+    border: 0;
+    background-color: rgb(243, 101, 7);
+    width: 6rem;
+    height: 6rem;
+}
+.searchicon:hover{
+    opacity: 80%;
+}
+.find{
+    height:70px;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.details p{
+    font-size: 23px;
+    margin: 2rem;
+}
+.head p{
+    margin-left: 0;
+}
+.ans p{
+    margin-right: 0;
+    margin-left: 10rem;
+}
+.tempbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5rem;
+    left: 8rem;
+}
+.temp{
+    font-size: 10rem;
+    font-weight: bold;
+    padding: 0rem 2rem;
+}
+.place{
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.ind{
+    font-size: 2rem;
+    padding: 0rem 4rem;
+    align-self: center;
+    text-align: center;
+}
+.icon{
+    display: none;
+}
+.item{
+    margin: 2rem;
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-family:'Ubuntu', sans-serif;
+}
